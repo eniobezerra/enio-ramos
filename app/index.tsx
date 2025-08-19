@@ -1,12 +1,12 @@
 import React from 'react';
-import { Image, ScrollView, Text, TextInput, View } from 'react-native';
+import {View, Text, Image, ScrollView, TextInput} from 'react-native';
 
 const App = () => {
   return (
     <ScrollView>
-      <Text>Some text</Text>
+      <Text></Text>
       <View>
-        <Text>Some more text</Text>
+        <Text></Text>
         <Image
           source={{
             uri: 'https://reactnative.dev/docs/assets/p_cat2.png',
@@ -20,7 +20,7 @@ const App = () => {
           borderColor: 'gray',
           borderWidth: 1,
         }}
-        defaultValue=" Autor :Enio Ramos Bezerra"
+        defaultValue="ENIO RAMOS BEZERRA"
       />
     </ScrollView>
   );
