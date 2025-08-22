@@ -8,7 +8,7 @@ const App = () => {
       <View>
         <Text></Text>
         <Image source={require('@/assets/images/foto1.jpg')}
-        style={{width: 200, height: 200}}
+        style={{width: 200, height: 200, }}
         />
       </View>
       <TextInput
@@ -16,6 +16,7 @@ const App = () => {
           height: 40,
           borderColor: 'gray',
           borderWidth: 1,
+          
         }}
         defaultValue="ENIO RAMOS BEZERRA"
       />
